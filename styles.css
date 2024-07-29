@@ -1,22 +1,26 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f4f4f9;
     color: #333;
+    line-height: 1.6;
 }
 
+/* Header Styles */
 header {
-    background-color: #444;
+    background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .logo h1 {
-    margin: 0;
+header .logo {
+    font-size: 1.8rem;
+    margin-left: 20px;
 }
 
 header nav ul {
@@ -27,45 +31,202 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
 }
 
+header nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-background.jpg') no-repeat center center/cover;
+    background: url('hero-background.jpg') no-repeat center center/cover;
     color: #fff;
-    padding: 100px 20px;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    padding: 0 20px;
+    position: relative;
 }
 
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+/* Section Styles */
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+section h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #333;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+.about, .services, .contact {
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about p, .services p, .contact p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
 .contact-info {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact-info div {
-    background-color: #fff;
+    flex: 1;
+    margin: 20px;
     padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info div h3 {
+    margin-top: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Button Styles */
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #575757;
+}
+
+/* Form Styles */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-footer {
-    background-color: #444;
+input[type="submit"] {
+    background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #575757;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    header nav ul li {
+        width: 100%;
+        margin: 0;
+    }
+
+    header nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .hero-section {
+        height: 60vh;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+
+    .contact-info div {
+        margin: 10px 0;
+    }
 }
