@@ -35,7 +35,14 @@
     <section id="services">
         <div class="container">
             <h2>Our Services</h2>
-            <p>[Placeholder for 3,000 words about Hexaware services]</p>
+            <p>Hexafor offers a comprehensive suite of IT consultancy services designed to address various aspects of business technology needs. Our services include:
+
+    Enterprise Resource Planning (ERP)
+    Customer Relationship Management (CRM)
+    Software Development
+    Cloud Computing
+    Data & Artificial Intelligence (AI)
+    Cybersecurity</p>
         </div>
     </section>
     <section id="contact">
