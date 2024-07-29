@@ -29,7 +29,7 @@
     <section id="about">
         <div class="container">
             <h2>About Hexafor</h2>
-            <p>[Placeholder for 20,000 words about Hexafor]</p>
+            <p>Hexafor is a premier IT consultancy firm renowned for delivering bespoke services tailored to the unique needs of businesses worldwide. With a strong presence in Hyderabad, India, and London, UK, Hexafor has established itself as a trusted partner for companies seeking expertise in Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Software Development, Cloud Computing, Data & Artificial Intelligence (AI), and Cybersecurity. Our mission is to empower businesses with cutting-edge technology solutions, enabling them to achieve operational excellence and sustainable growth.</p>
         </div>
     </section>
     <section id="services">
