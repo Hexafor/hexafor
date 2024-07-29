@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,6 +57,32 @@
             color: #fff;
             text-align: center;
             padding: 10px;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                text-align: center;
+            }
+            .content {
+                padding: 10px;
+            }
+            .testimonial {
+                padding: 10px;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                font-size: 14px;
+            }
+            header {
+                padding: 10px;
+            }
+            .content {
+                padding: 5px;
+            }
+            .testimonial {
+                padding: 5px;
+            }
         }
     </style>
 </head>
