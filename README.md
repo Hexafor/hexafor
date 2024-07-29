@@ -85,7 +85,7 @@
         <p>We'd love to hear from you. Reach out to us at:</p>
         <address>
             Email: info@hexafor.com<br>
-            Phone: (+44) 07501 661788<br>
+            Phone: (+44) 07957 581746<br>
             Address: Flat 5, 301 High Road Leyton, London, UK
         </address>
     </section>
