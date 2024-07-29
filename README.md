@@ -85,8 +85,8 @@
         <p>We'd love to hear from you. Reach out to us at:</p>
         <address>
             Email: info@hexafor.com<br>
-            Phone: (123) 456-7890<br>
-            Address: 123 Tech Lane, Silicon Valley, CA
+            Phone: (+44) 07501 661788
+            Address: Flat 5, 301 High Road Leyton, London, UK
         </address>
     </section>
 </main>
