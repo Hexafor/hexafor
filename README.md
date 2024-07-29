@@ -3,163 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hexafor</title>
+    <title>Hexafor - Your Trusted Partner in IT Solutions</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #dcdcdc; /* Dove grey background */
+            color: #ffffff;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
         }
         header {
-            background-color: #0066cc;
-            color: white;
-            padding: 10px 20px;
+            background-color: #333;
+            padding: 20px;
             text-align: left;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            position: relative;
         }
         header h1 {
             margin: 0;
-            font-size: 24px;
+            color: #ffffff;
         }
-        nav {
-            background-color: #005bb5;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
+        .watermark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('hexagon-watermark.png'); /* Make sure to replace with your watermark image */
+            background-repeat: no-repeat;
+            background-position: top right;
+            opacity: 0.1;
         }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-        nav a:hover {
-            background-color: #004080;
-        }
-        .container {
+        .content {
             padding: 20px;
         }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+        h2 {
+            color: #333;
         }
-        .service {
-            background-color: white;
-            border: 1px solid #ddd;
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+        .testimonial {
+            background-color: #444;
+            padding: 15px;
+            margin: 15px 0;
             border-radius: 5px;
-            margin: 10px;
-            padding: 20px;
-            width: calc(33% - 40px);
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .service h3 {
-            margin-top: 0;
+        .testimonial p {
+            margin: 0;
         }
         footer {
-            background-color: #0066cc;
-            color: white;
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        @media (max-width: 768px) {
-            .service {
-                width: calc(50% - 40px);
-            }
-        }
-        @media (max-width: 480px) {
-            nav a {
-                flex: 1 1 100%;
-                text-align: center;
-            }
-            .service {
-                width: calc(100% - 40px);
-            }
-            header {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            header h1 {
-                font-size: 20px;
-            }
+            padding: 10px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <div class="watermark"></div>
+        <h1>Hexafor</h1>
+    </header>
 
-<header>
-    <h1>Hexafor IT Consultancy</h1>
-</header>
+    <div class="content">
+        <h2>About Hexafor</h2>
+        <p>Hexafor provides bespoke services in consultancy, support, and training across various domains including ERP, CRM, Software, Cloud, Data & AI, and Cybersecurity. Our comprehensive solutions are designed to help businesses of all sizes navigate the complexities of modern technology and achieve their strategic goals.</p>
+        
+        <h3>ERP (Enterprise Resource Planning)</h3>
+        <p>Hexafor offers specialized ERP consultancy services to streamline your business processes and improve efficiency. Our team of experts helps in the implementation and customization of ERP systems tailored to your unique business needs. Whether you are looking to integrate various functions or upgrade your existing ERP system, Hexafor ensures a smooth and successful transition.</p>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-</nav>
+        <h3>CRM (Customer Relationship Management)</h3>
+        <p>In the world of customer-centric businesses, an effective CRM system is crucial. Hexafor provides CRM solutions that help you manage customer interactions, track sales leads, and optimize marketing strategies. Our CRM services are designed to improve customer satisfaction and drive business growth.</p>
 
-<div class="container">
-    <section id="home">
-        <h2>Welcome to Hexafor</h2>
-        <p>Your trusted partner in IT Consultancy. We offer a range of services to help your business thrive in the digital age.</p>
-    </section>
+        <h3>Software Development</h3>
+        <p>At Hexafor, we understand the importance of custom software solutions in addressing specific business challenges. Our software development services range from application development to system integration, ensuring that your software ecosystem is robust, scalable, and secure. We employ the latest technologies and methodologies to deliver high-quality software solutions.</p>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services">
-            <div class="service">
-                <h3>IT Strategy Consulting</h3>
-                <p>Align your IT strategy with your business goals to drive growth and innovation.</p>
-            </div>
-            <div class="service">
-                <h3>Software Development</h3>
-                <p>Custom software solutions tailored to meet your specific business needs.</p>
-            </div>
-            <div class="service">
-                <h3>Cloud Solutions</h3>
-                <p>Leverage the power of the cloud to enhance efficiency and scalability.</p>
-            </div>
-            <div class="service">
-                <h3>Cybersecurity</h3>
-                <p>Protect your business from cyber threats with our comprehensive security solutions.</p>
-            </div>
-            <div class="service">
-                <h3>Data Analytics</h3>
-                <p>Unlock insights from your data to drive better decision-making.</p>
-            </div>
-            <div class="service">
-                <h3>SAP S/4 Hana</h3>
-                <p>Transform your business processes with SAP S/4 Hana implementations.</p>
-            </div>
-        </div>
-    </section>
+        <h3>Cloud Services</h3>
+        <p>Cloud technology is at the forefront of digital transformation. Hexafor provides end-to-end cloud services, including cloud migration, infrastructure management, and cloud-native development. Our cloud solutions are designed to enhance flexibility, reduce costs, and improve performance. We work with leading cloud providers to deliver reliable and scalable cloud services.</p>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At Hexafor, we are committed to delivering top-notch IT consultancy services. Our team of experts has extensive experience in various IT domains, ensuring that we can provide the best solutions for your business.</p>
-    </section>
+        <h3>Data & AI</h3>
+        <p>Data is a valuable asset for any business. Hexafor offers data analytics and AI services to help you harness the power of data. From data warehousing to advanced analytics and machine learning, our data services provide insights that drive informed decision-making and strategic planning. Our AI solutions are tailored to automate processes, enhance productivity, and deliver innovative business outcomes.</p>
 
-    <section id="contact">
+        <h3>Cybersecurity</h3>
+        <p>In an era of increasing cyber threats, robust cybersecurity measures are essential. Hexafor provides comprehensive cybersecurity services to protect your business from potential risks. Our services include vulnerability assessments, threat intelligence, incident response, and security consulting. We help you build a resilient cybersecurity framework to safeguard your data and systems.</p>
+
         <h2>Contact Us</h2>
-        <p>Have questions or need more information? Reach out to us:</p>
-        <address>
-            Flat 5, 301 High Road Leyton, London, UK<br>
-            Phone: <a href="tel:+447957581746">07957 581746</a><br>
-            Email: <a href="mailto:info@hexafor.com">info@hexafor.com</a>
-        </address>
-    </section>
-</div>
+        <p><strong>UK Office</strong></p>
+        <p>Phone: 07957581746</p>
+        <p>Address: Flat 5, 301 High Road Leyton, London, UK</p>
 
-<footer>
-    <p>&copy; 2024 Hexafor IT Consultancy. All rights reserved.</p>
-</footer>
+        <p><strong>India Office</strong></p>
+        <p>Phone: 9849578698</p>
+        <p>Address: Plot No.6, Vijaynagar Colony, Picket, Secunderabad</p>
 
+        <h2>Customer Testimonials</h2>
+        <div class="testimonial">
+            <p>"Hexafor's ERP implementation services have transformed our business processes. Their expertise and support were invaluable in ensuring a smooth transition." - John Doe, CEO of ABC Corp</p>
+        </div>
+        <div class="testimonial">
+            <p>"The CRM solutions provided by Hexafor have greatly improved our customer interactions and sales tracking. Highly recommend their services!" - Jane Smith, Marketing Director at XYZ Ltd</p>
+        </div>
+        <div class="testimonial">
+            <p>"Hexafor's cybersecurity services have given us peace of mind. They are always proactive in addressing potential threats and ensuring our data is secure." - Mike Johnson, IT Manager at 123 Inc</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hexafor. All rights reserved.</p>
+    </footer>
 </body>
 </html>
