@@ -23,13 +23,13 @@
     <section id="home" class="hero-section">
         <div class="hero-content">
             <h2>Welcome to Hexafor</h2>
-            <p>Your partner in consultancy, support, and training in ERP, CRM, Software, Cloud, Data & AI, and Cybersecurity.</p>
+            <p>Your partner in consultancy, support, and training in SAP-ERP, Software, Cloud, Data & AI, and Cybersecurity.</p>
         </div>
     </section>
     <section id="about">
         <div class="container">
             <h2>About Hexafor</h2>
-            <p>Hexafor is a premier IT consultancy firm renowned for delivering bespoke services tailored to the unique needs of businesses worldwide. With a strong presence in Hyderabad, India, and London, UK, Hexafor has established itself as a trusted partner for companies seeking expertise in Enterprise Resource Planning (ERP), Customer Relationship Management (CRM), Software Development, Cloud Computing, Data & Artificial Intelligence (AI), and Cybersecurity. Our mission is to empower businesses with cutting-edge technology solutions, enabling them to achieve operational excellence and sustainable growth.</p>
+            <p>Hexafor is a premier IT consultancy firm renowned for delivering bespoke services tailored to the unique needs of businesses worldwide. With a strong presence in Hyderabad, India, and London, UK, Hexafor has established itself as a trusted partner for companies seeking expertise in SAP - Enterprise Resource Planning (ERP), Software Development, Cloud Computing, Data & Artificial Intelligence (AI), and Cybersecurity. Our mission is to empower businesses with cutting-edge technology solutions, enabling them to achieve operational excellence and sustainable growth.</p>
         </div>
     </section>
     <section id="services">
@@ -37,10 +37,10 @@
             <h2>Our Services</h2>
             <p>Hexafor offers a comprehensive suite of IT consultancy services designed to address various aspects of business technology needs. Our services include:
 
-    Enterprise Resource Planning (ERP) - SAP
-    Software Development
-    Cloud Computing
-    Data & Artificial Intelligence (AI)
+    SAP - Enterprise Resource Planning (ERP),
+    Software Development,
+    Cloud Computing,
+    Data & Artificial Intelligence (AI),
     Cybersecurity</p>
         </div>
     </section>
