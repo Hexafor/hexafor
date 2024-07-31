@@ -37,8 +37,7 @@
             <h2>Our Services</h2>
             <p>Hexafor offers a comprehensive suite of IT consultancy services designed to address various aspects of business technology needs. Our services include:
 
-    Enterprise Resource Planning (ERP)
-    Customer Relationship Management (CRM)
+    Enterprise Resource Planning (ERP) - SAP
     Software Development
     Cloud Computing
     Data & Artificial Intelligence (AI)
@@ -51,7 +50,7 @@
             <div class="contact-info">
                 <div>
                     <h3>UK Office</h3>
-                    <p>Flat 5, 301 High Road Leyton, London, UK</p>
+                    <p>301 High Road Leyton, London, UK</p>
                     <p>Phone: +44 07957581746</p>
                 </div>
                 <div>
