@@ -51,7 +51,7 @@
                 <div>
                     <h3>UK Office</h3>
                     <p>301 High Road Leyton, London, UK</p>
-                    <p>Phone: +44 07957581746</p>
+                    <p>Phone: +44 (0) 7957581746</p>
               
     </section>
     <footer>
