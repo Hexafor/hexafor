@@ -224,9 +224,4 @@ input[type="submit"]:hover {
 
     .contact-info {
         flex-direction: column;
-    }
-
-    .contact-info div {
-        margin: 10px 0;
-    }
-}
+   }
