@@ -54,11 +54,7 @@
                     <p>Phone: +44 07957581746</p>
                 </div>
                 <div>
-                    <h3>India Office</h3>
-                    <p>Plot No.6, Vijaynagar Colony, Picket, Secunderabad</p>
-                    <p>Phone: +91 9849578698</p>
                 </div>
-            </div>
         </div>
     </section>
     <footer>
