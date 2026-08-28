@@ -50,7 +50,7 @@
             <div class="contact-info">
                 <div>
                     <h3>UK Office</h3>
-                    <p>301 High Road Leyton, London, UK</p>
+                    <p>77 The Square, Loughton, IG10 3FE, UK</p>
                     <p>Phone: +44 (0) 7957581746</p>
               
     </section>
